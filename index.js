@@ -20,7 +20,7 @@ shout();
 whisper();
 
 function sayHiToGrandma(string) {
-  if (string == string.toLowerCase) return ("I can\'t hear your!");
+  if (string.localeCompare(string.toLowerCase)) return ("I can\'t hear your!");
   else if (string == string.toUpperCase) return ("YES INDEED!");
   else if (string == "I love you, Grandma.") return ("I love you, too.");
   var uppercase = "HELLO!"
